@@ -30,7 +30,7 @@ png(filename = "C:/Documents1/R_directory/ED/exdata_data_household_power_consump
 par(mfrow = c(2, 2))
 
 # Plot 1
-plot(d_sub$dateTime, d_sub$Global_active_power, ylab = "Global Active Power (kilowatts)", 
+plot(d_sub$dateTime, d_sub$Global_active_power, ylab = "Global Active Power", 
      xlab = "", type = "l")
 
 # Plot 2
